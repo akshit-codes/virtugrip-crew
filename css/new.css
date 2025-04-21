@@ -1,26 +1,26 @@
-.testimonial-card {
+.testi-card {
 	padding: 0;
 	aspect-ratio: 3/4;
 	width: 14vw;
 	box-shadow: 0 0 10px 0px #004cda;
 }
 @media screen and (max-width: 990px) {
-	.testimonial-card {
+	.testi-card {
 		width: 20vw;
 	}
 }
 @media screen and (max-width: 767px) {
-	.testimonial-card {
+	.testi-card {
 		width: 27vw;
 	}
 }
 @media screen and (max-width: 767px) {
-	.testimonial-card {
+	.testi-card {
 		width: 27vw;
 	}
 }
 @media screen and (max-width: 479px) {
-	.testimonial-card {
+	.testi-card {
 		width: 80vw;
 	}
 }
@@ -65,4 +65,10 @@
 .desg {
 	font-size: 0.9rem;
 	color: #aaa;
+}
+.udit-card {
+	box-shadow: 0 0 10px 0px #004cda;
+}
+.udit-card .title {
+	font-size: 1.3rem;
 }
